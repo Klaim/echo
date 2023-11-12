@@ -18,7 +18,7 @@ depends: libadwaita >= 1.4.0
 # are (currently) not packaged and need to come from the system package
 # manager.
 #
-builds: none
+builds: fedora
 
 fedora-builds: sys
 fedora-build-include: linux_fedora*-clang_16*
