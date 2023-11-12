@@ -19,8 +19,7 @@ depends: libadwaita >= 1.4.0
 # manager.
 #
 builds: sys
+build-include: linux_fedora*-clang_16*
+build-exclude: **
+sys-build-config: sys:libadwaita
 
-fedora-builds: sys
-fedora-build-include: linux_fedora*-clang_16*
-fedora-build-exclude: **
-fedora-build-config: sys:libadwaita
